@@ -1,0 +1,250 @@
+﻿@model IEnumerable<myapp.Areas.Staff.Models.ComplaintsModel>
+
+<div class="content-body">
+	<!-- row -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="card">
+					<div class="card-header d-md-flex d-block p-0">
+						<div class="card-tabs mt-3 mt-sm-0 mb-sm-0 mb-3">
+							<ul class="nav nav-tabs shadow-none" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" data-bs-toggle="tab" href="#All" role="tab">All Complanits</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-bs-toggle="tab" href="#Pending" role="tab">Pending</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-bs-toggle="tab" href="#Accepted" role="tab">Accepted</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-bs-toggle="tab" href="#Rejected" role="tab">Rejected</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-bs-toggle="tab" href="#Completed" role="tab">Completed</a>
+								</li>
+							</ul>
+						</div>						
+					</div>
+					<div class="card-body pb-0">
+						<div class="tab-content">						
+							<div class="tab-pane active show" id="All">
+								@foreach (var complaint in Model.Where(c => c.ComplainStatus != "Rejected"))
+								{
+									<div class="row align-items-center customer-review-list">
+										<div class="col-xl-3 col-lg-4 mb-xl-0 mb-3">
+											<div class="review-bx">											
+												<div>
+													<span class="text-primary fs-16">#COM-@complaint.ComplainID</span>
+													<h4 class="mt-1 fs-20 font-w600"><a class="text-black" href="guest-detail.html">@complaint.StudentName <span class="fs-5">(@complaint.RoomNumber)</span></a></h4>
+													<span class="fs-12">Posted on @complaint.CreatedAt?.ToString("dd-MM-yyyy HH:mm")</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-xl-6 col-xxl-6">
+											<p class="fs-4 fw-bold">@complaint.ComplainSubject</p>
+											<p class="mb-0">@complaint.ComplainBody</p>
+										</div>
+										<div class="col-xl-3 text-end col-xxl-2 action-btn ms-auto">
+											@* <button type="button" *@
+											@* 		class="review-icon rounded-circle bg-success text-white me-3" *@
+											@* 		onclick="confirmStatusUpdate(@complaint.ComplainID, 'Accepted')"> *@
+											@* 	<i class="far fa-check-circle"></i> *@
+											@* </button> *@
+											@* <button type="button" *@
+											@* 		class="review-icon rounded-circle bg-danger text-white" *@
+											@* 		onclick="confirmStatusUpdate(@complaint.ComplainID, 'Rejected')"> *@
+											@* 	<i class="far fa-times-circle"></i> *@
+											@* </button> *@
+										</div>
+									</div>
+								}
+							</div>	
+							<div class="tab-pane" id="Pending">
+								@foreach (var complaint in Model.Where(c => c.ComplainStatus == "Pending"))
+								{
+									<div class="row align-items-center customer-review-list">
+										<div class="col-xl-3 col-lg-4 mb-xl-0 mb-3">
+											<div class="review-bx">
+												<div>
+													<span class="text-primary fs-16">#COM-@complaint.ComplainID</span>
+													<h4 class="mt-1 fs-20 font-w600"><a class="text-black" href="guest-detail.html">@complaint.StudentName <span class="fs-5">(@complaint.RoomNumber)</span></a></h4>
+													<span class="fs-12">Posted on @complaint.CreatedAt?.ToString("dd-MM-yyyy HH:mm")</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-xl-6 col-xxl-6">
+											<p class="fs-4 fw-bold">@complaint.ComplainSubject</p>
+											<p class="mb-0">@complaint.ComplainBody</p>
+										</div>
+										<div class="col-xl-3 text-end col-xxl-2 action-btn ms-auto">
+											<button type="button"
+													class="review-icon rounded-circle bg-success text-white me-3"
+													onclick="confirmStatusUpdate(@complaint.ComplainID, 'Accepted')">
+												<i class="far fa-check-circle"></i>
+											</button>
+											<button type="button"
+													class="review-icon rounded-circle bg-danger text-white"
+													onclick="confirmStatusUpdate(@complaint.ComplainID, 'Rejected')">
+												<i class="far fa-times-circle"></i>
+											</button>
+										</div>
+									</div>
+								}
+							</div>
+							<div class="tab-pane" id="Accepted">
+								@foreach (var complaint in Model.Where(c => c.ComplainStatus == "Accepted"))
+								{
+									<div class="row align-items-center customer-review-list">
+										<div class="col-xl-3 col-lg-4 mb-xl-0 mb-3">
+											<div class="review-bx">
+												<div>
+													<span class="text-primary fs-16">#COM-@complaint.ComplainID</span>
+													<h4 class="mt-1 fs-20 font-w600"><a class="text-black" href="guest-detail.html">@complaint.StudentName <span class="fs-5">(@complaint.RoomNumber)</span></a></h4>
+													<span class="fs-12">Posted on @complaint.CreatedAt?.ToString("dd-MM-yyyy HH:mm")</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-xl-6 col-xxl-6">
+											<p class="fs-4 fw-bold">@complaint.ComplainSubject</p>
+											<p class="mb-0">@complaint.ComplainBody</p>
+										</div>
+										<div class="col-xl-3 text-end col-xxl-2 action-btn ms-auto">
+											<button type="button"
+													class="review-icon rounded-circle bg-success text-white me-3"
+													onclick="confirmStatusUpdate(@complaint.ComplainID, 'Completed')">
+												<i class="far fa-check-circle"></i>
+											</button>
+											@* <button type="button"
+													class="review-icon rounded-circle bg-danger text-white"
+													onclick="confirmStatusUpdate(@complaint.ComplainID, 'Rejected')">
+												<i class="far fa-times-circle"></i>
+											</button> *@
+										</div>
+									</div>
+								}
+							</div>
+							<div class="tab-pane" id="Rejected">
+								@foreach (var complaint in Model.Where(c => c.ComplainStatus == "Rejected"))
+								{
+									<div class="row align-items-center customer-review-list">
+										<div class="col-xl-3 col-lg-4 mb-xl-0 mb-3">
+											<div class="review-bx">
+												<div>
+													<span class="text-primary fs-16">#COM-@complaint.ComplainID</span>
+													<h4 class="mt-1 fs-20 font-w600"><a class="text-black" href="guest-detail.html">@complaint.StudentName <span class="fs-5">(@complaint.RoomNumber)</span></a></h4>
+													<span class="fs-12">Posted on @complaint.CreatedAt?.ToString("dd-MM-yyyy HH:mm")</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-xl-6 col-xxl-6">
+											<p class="fs-4 fw-bold">@complaint.ComplainSubject</p>
+											<p class="mb-0">@complaint.ComplainBody</p>
+										</div>
+										<div class="col-xl-3 text-end col-xxl-2 action-btn ms-auto">
+											<button type="button"
+													class="review-icon rounded-circle bg-warning text-white me-3"
+													onclick="confirmStatusUpdate(@complaint.ComplainID, 'Pending')">
+												<i class="far fa-check-circle"></i>
+											</button>											
+										</div>
+									</div>
+								}
+							</div>
+							<div class="tab-pane" id="Completed">
+								@foreach (var complaint in Model.Where(c => c.ComplainStatus == "Completed"))
+								{
+									<div class="row align-items-center customer-review-list">
+										<div class="col-xl-3 col-lg-4 mb-xl-0 mb-3">
+											<div class="review-bx">
+												<div>
+													<span class="text-primary fs-16">#COM-@complaint.ComplainID</span>
+													<h4 class="mt-1 fs-20 font-w600"><a class="text-black" href="guest-detail.html">@complaint.StudentName <span class="fs-5">(@complaint.RoomNumber)</span></a></h4>
+													<span class="fs-12">Posted on @complaint.CreatedAt?.ToString("dd-MM-yyyy HH:mm")</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-xl-6 col-xxl-6">
+											<p class="fs-4 fw-bold">@complaint.ComplainSubject</p>
+											<p class="mb-0">@complaint.ComplainBody</p>
+										</div>
+										<div class="col-xl-3 text-end col-xxl-2 action-btn ms-auto">
+											@* <button type="button"
+													class="review-icon rounded-circle bg-success text-white me-3"
+													onclick="confirmStatusUpdate(@complaint.ComplainID, 'Accepted')">
+												<i class="far fa-check-circle"></i>
+											</button>
+											<button type="button"
+													class="review-icon rounded-circle bg-danger text-white"
+													onclick="confirmStatusUpdate(@complaint.ComplainID, 'Rejected')">
+												<i class="far fa-times-circle"></i>
+											</button> *@
+										</div>
+									</div>
+								}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	function confirmStatusUpdate(complainID, status) {
+		let action;
+		
+		if (status === 'Accepted') {
+			action = "accept";
+		} else if (status === 'Rejected') {
+			action = "reject";
+		} else if (status === 'Pending') {
+			action = "restore";
+		}
+		else if(status === 'Completed')
+		{
+			action = "complete";
+		}
+		
+		Swal.fire({
+			title: `Are you sure you want to ${action} this complaint?`,
+			text: "This action cannot be undone.",
+			icon: "warning",
+			showCancelButton: true,
+			confirmButtonColor: "#3085d6",
+			cancelButtonColor: "#d33",
+			confirmButtonText: "Yes, update it!",
+			cancelButtonText: "Cancel",
+		}).then((result) => {
+			if (result.isConfirmed) {
+				updateStatus(complainID, status);
+			}
+		});
+	}
+
+	
+	function updateStatus(complainID, status) {
+		fetch(`/Staff/Complaint/UpdateComplaintsStatus/${complainID}?status=${status}`, {
+			method: "Put",
+			headers: {
+				"Content-Type": "application/json"
+			}
+		})
+			.then(response => {
+				if (response.ok) {
+					return response.json();
+				}
+				throw new Error("Failed to update the complaint status.");
+			})
+			.then(data => {
+				Swal.fire("Success", data.message, "success");	
+				location.reload();				
+			})
+			.catch(error => {
+				Swal.fire("Error", error.message, "error");
+			});
+	}
+</script>

@@ -1,0 +1,75 @@
+﻿@using myapp.Areas.Student.Models
+@model PaymentModel
+@{
+    ViewData["Title"] = "Make Payment";
+}
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row page-titles">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="javascript:void(0)">Payments</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    <a href="javascript:void(0)">Room Payment</a>
+                </li>
+            </ol>
+        </div>
+    </div> <!-- End of container-fluid -->
+
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <!-- Payment Due Section -->
+            <div class="col-md-12 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Current Payment Due</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-borderless">
+                            <tr>
+                                <th>Room Number:</th>
+                                <td>@Model.RoomNumber</td>
+                            </tr>
+                            <tr>
+                                <th>Monthly Rent:</th>
+                                <td>₹@Model.RoomRent</td>
+                            </tr>
+                        </table>
+                        <form method="post" asp-action="PayNow">
+                            <button type="submit" class="btn btn-success btn-block">Pay Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Include jQuery and SweetAlert2 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(document).ready(function () {
+    @if (TempData["Message"] != null)
+    {
+        <text>
+                    Swal.fire({
+                        title: 'Success',
+                        text: '@TempData["Message"]'
+                    });
+        </text>
+    }
+    else if (TempData["Error"] != null)
+    {
+        <text>
+                    Swal.fire({
+                        title: 'Error',
+                        text: '@TempData["Error"]'
+                    });
+        </text>
+    }
+    });
+</script>

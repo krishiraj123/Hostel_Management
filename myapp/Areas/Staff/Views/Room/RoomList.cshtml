@@ -1,0 +1,277 @@
+﻿@using System.Data;
+@model IEnumerable<myapp.Areas.Staff.Models.RoomModel>;
+
+<div class="content-body">
+    <!-- row -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="d-flex mb-4 justify-content-between align-items-center flex-wrap">
+                    <div class="card-tabs mt-3 mt-sm-0 mb-xxl-0 mb-4">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#All" role="tab">All Room (@Model.Count())</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#Full" role="tab">Full (@Model.Count(r => r.RoomStatus == "Full"))</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#Vacant" role="tab">Vacant (@Model.Count(r => r.RoomStatus == "Vacant"))</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <!-- All Rooms Tab -->
+                    <div class="tab-pane active show" id="All">
+                        <div class="table-responsive">
+                            <table id="example3" class="table card-table check-data display mb-4 dataTablesCard booking-table room-list-tbl table-responsive-lg" id="guestTable-all">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Room Number</th>
+                                        <th>Capacity</th>
+                                        <th>Vacancy</th>
+                                        <th>Floor</th>
+                                        <th>Rent</th>
+                                        <th>Room Type</th>
+                                        <th>Status</th>
+                                        <th>HostelName</th>
+                                        <th>CreatedAt</th>
+                                        <th>UpdatedAt</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model != null)
+                                    {
+                                        foreach (var room in Model)
+                                        {
+                                            <tr>
+                                                <td>@room.RoomID</td>
+                                                <td>@room.RoomNumber</td>
+                                                <td>@room.RoomCapacity</td>
+                                                <td>@room.CurrentVacancy</td>
+                                                <td>@room.RoomFloor</td>
+                                                <td class="text-nowrap">@room.RoomRent.ToString("C")</td>
+                                                <td>@room.RoomType</td>
+                                                <td><span class="badge @(room.RoomStatus == "Vacant" ? "bg-success" : "bg-danger")">@room.RoomStatus</span></td>
+                                                <td>@room.HostelName</td>
+                                                <td>@room.CreatedAt?.ToString("dd-MM-yyyy HH:mm")</td>
+                                                <td>@room.UpdatedAt?.ToString("dd-MM-yyyy HH:mm")</td>
+                                                <td>
+                                                    <div class="dropdown dropstart">
+                                                        <a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M18 12C18 12.5523 18.4477 13 19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M4 12C4 12.5523 4.44772 13 5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" asp-action="RoomAddEdit" asp-controller="Room" asp-area="Staff" asp-route-id="@room.RoomID">Edit</a>
+                                                            <button type="submit" class="dropdown-item text-danger" onclick="confirmDelete('@room.RoomID')">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <tr>
+                                            <td colspan="11" class="text-center">No records found.</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Full Rooms Tab -->
+                    <div class="tab-pane" id="Full">
+                        <div class="table-responsive">
+                            <table id="example3" class="table card-table check-data display mb-4 dataTablesCard booking-table room-list-tbl table-responsive-lg" id="guestTable-full">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Room Number</th>
+                                        <th>Capacity</th>
+                                        <th>Vacancy</th>
+                                        <th>Floor</th>
+                                        <th>Rent</th>
+                                        <th>Room Type</th>
+                                        <th>Status</th>
+                                        <th>HostelName</th>
+                                        <th>CreatedAt</th>
+                                        <th>UpdatedAt</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model != null)
+                                    {
+                                        foreach (var room in Model.Where(r => r.RoomStatus == "Full"))
+                                        {
+                                            <tr>
+                                                <td>@room.RoomID</td>
+                                                <td>@room.RoomNumber</td>
+                                                <td>@room.RoomCapacity</td>
+                                                <td>@room.CurrentVacancy</td>
+                                                <td>@room.RoomFloor</td>
+                                                <td>@room.RoomRent</td>
+                                                <td>@room.RoomType</td>
+                                                <td class="text-danger">@room.RoomStatus</td>
+                                                <td>@room.HostelName</td>
+                                                <td>@room.CreatedAt?.ToString("dd-MM-yyyy HH:mm")</td>
+                                                <td>@room.UpdatedAt?.ToString("dd-MM-yyyy HH:mm")</td>
+                                                <td>
+                                                    <div class="dropdown dropstart">
+                                                        <a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M18 12C18 12.5523 18.4477 13 19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M4 12C4 12.5523 4.44772 13 5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" asp-action="RoomAddEdit" asp-controller="Room" asp-area="Staff" asp-route-id="@room.RoomID">Edit</a>
+                                                            <button type="submit" class="dropdown-item text-danger" onclick="confirmDelete('@room.RoomID')">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <tr>
+                                            <td colspan="11" class="text-center">No records found.</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Vacant Rooms Tab -->
+                    <div class="tab-pane" id="Vacant">
+                        <div class="table-responsive">
+                            <table id="example3" class="table card-table check-data display mb-4 dataTablesCard booking-table room-list-tbl table-responsive-lg" id="guestTable-vacant">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Room No.</th>
+                                        <th>Capacity</th>
+                                        <th>Vacancy</th>
+                                        <th>Floor</th>
+                                        <th>Rent</th>
+                                        <th>Room Type</th>
+                                        <th>Status</th>
+                                        <th>HostelName</th>
+                                        <th>CreatedAt</th>
+                                        <th>UpdatedAt</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model != null)
+                                    {
+                                        foreach (var room in Model.Where(r => r.RoomStatus == "Vacant"))
+                                        {
+                                            <tr>
+                                                <td>@room.RoomID</td>
+                                                <td>@room.RoomNumber</td>
+                                                <td>@room.RoomCapacity</td>
+                                                <td>@room.CurrentVacancy</td>
+                                                <td>@room.RoomFloor</td>
+                                                <td>@room.RoomRent</td>
+                                                <td>@room.RoomType</td>
+                                                <td class="text-success">@room.RoomStatus</td>
+                                                <td>@room.HostelName</td>
+                                                <td>@room.CreatedAt?.ToString("dd-MM-yyyy HH:mm")</td>
+                                                <td>@room.UpdatedAt?.ToString("dd-MM-yyyy HH:mm")</td>
+                                                <td>
+                                                    <div class="dropdown dropstart">
+                                                        <a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M18 12C18 12.5523 18.4477 13 19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M4 12C4 12.5523 4.44772 13 5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12Z" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" asp-action="RoomAddEdit" asp-controller="Room" asp-area="Staff" asp-route-id="@room.RoomID">Edit</a>
+                                                            <button type="button" class="dropdown-item text-danger" onclick="confirmDelete('@room.RoomID')">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <tr>
+                                            <td colspan="11" class="text-center">No records found.</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function confirmDelete(RoomId) {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/Staff/Room/DeleteRoom/" + RoomId;
+                Swal.fire("Success", data.message, "success");	
+            }
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {        
+        $('#guestTable-all').DataTable();
+        $('#guestTable-full').DataTable();
+        $('#guestTable-vacant').DataTable();
+    });
+</script>
+
+@section Scripts {
+    @if (TempData["Message"] != null)
+    {
+        <script>
+            Swal.fire({
+                title: 'Success!',
+                text: '@Html.Raw(TempData["Message"])'
+            @* icon: 'success' *@
+            });
+        </script>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <script>
+            Swal.fire({
+                title: 'Error!',
+                text: '@Html.Raw(TempData["ErrorMessage"])'
+            @* icon: 'error' *@
+            });
+        </script>
+    }
+}

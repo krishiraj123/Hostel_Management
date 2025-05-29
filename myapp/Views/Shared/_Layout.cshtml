@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostel Management</title>
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/favicon.png">
+    <link rel="stylesheet" href="~/vendor/chartist/css/chartist.min.css">
+    <link href="~/vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+    <link href="~/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="~/vendor/jquery-smartwizard/dist/css/smart_wizard.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- Clockpicker -->
+    <link href="~/vendor/clockpicker/css/bootstrap-clockpicker.min.css" rel="stylesheet">
+    <!-- asColorpicker -->
+    <link href="~/vendor/jquery-asColorPicker/css/asColorPicker.min.css" rel="stylesheet">
+    <!-- Material color picker -->
+    <link href="~/vendor/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <link href="~/vendor/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
+    <link href="~/vendor/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/vendor/toastr/css/toastr.min.css">
+
+    <!-- Pick date -->
+    <link rel="stylesheet" href="~/vendor/pickadate/themes/default.css">
+    <link rel="stylesheet" href="~/vendor/pickadate/themes/default.date.css">
+    <!-- Style css -->
+    <link href="~/css/style.css" rel="stylesheet">
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+</head>
+<body>
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="waviy">
+            <span style="--i:1">L</span>
+            <span style="--i:2">o</span>
+            <span style="--i:3">a</span>
+            <span style="--i:4">d</span>
+            <span style="--i:5">i</span>
+            <span style="--i:6">n</span>
+            <span style="--i:7">g</span>
+            <span style="--i:8">.</span>
+            <span style="--i:9">.</span>
+            <span style="--i:10">.</span>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    <div id="main-wrapper">
+        <partial name="_Header"></partial>
+        <partial name="_Sidebar"></partial>
+        @RenderBody()
+        <partial name="_Footer"></partial>
+    </div>
+
+
+    @*     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script> *@
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="~/vendor/global/global.min.js"></script>
+    <script src="~/vendor/chart.js/Chart.bundle.min.js"></script>   
+    <script src="~/vendor/jquery-steps/build/jquery.steps.min.js"></script>
+    <script src="~/vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="~/vendor/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+    <!-- pickdate -->
+    <script src="~/vendor/pickadate/picker.js"></script>
+    <script src="~/vendor/pickadate/picker.time.js"></script>
+    <script src="~/vendor/pickadate/picker.date.js"></script>
+    <script src="~/vendor/moment/moment.min.js"></script>
+    <script src="~/vendor/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- clockpicker -->
+    <script src="~/vendor/clockpicker/js/bootstrap-clockpicker.min.js"></script>
+
+    <!-- Form validate init -->
+    <script src="~/js/plugins-init/jquery.validate-init.js"></script>
+    <script src="~/vendor/jquery-smartwizard/dist/js/jquery.smartWizard.js"></script>
+    <script src="~/vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="~/js/plugins-init/material-date-picker-init.js"></script>
+    <!-- Pickdate -->
+    <script src="~/js/plugins-init/pickadate-init.js"></script>
+    <!-- Daterangepicker -->
+    <script src="~/js/plugins-init/bs-daterange-picker-init.js"></script>
+    <!-- Clockpicker init -->
+    <script src="~/js/plugins-init/clock-picker-init.js"></script>
+    <script src="~/js/plugins-init/material-date-picker-init.js"></script>
+    <!-- Toastr -->
+    <script src="~/vendor/toastr/js/toastr.min.js"></script>
+
+    <!-- All init script -->
+    <script src="~/js/plugins-init/toastr-init.js"></script>
+    <script src="~/vendor/lightgallery/js/lightgallery-all.min.js"></script>
+
+
+    <!-- Chart piety plugin files -->
+    <script src="~/vendor/peity/jquery.peity.min.js"></script>
+
+    <!-- Apex Chart -->
+    <script src="~/vendor/apexchart/apexchart.js"></script>
+
+    <script src="~/vendor/bootstrap-datetimepicker/js/moment.js"></script>
+    <script src="~/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="~/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/js/plugins-init/datatables.init.js"></script>  
+    <script src="~/vendor/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="~/js/plugins-init/sweetalert.init.js"></script>
+
+    <!-- Dashboard 1 -->
+    <script src="~/js/dashboard/dashboard-1.js"></script>
+    <script src="~/js/custom.min.js"></script>
+    <script src="~/js/deznav-init.js"></script>
+    <script src="~/js/demo.js"></script>    
+    <script>
+        $(document).ready(function(){
+            // SmartWizard initialize
+            $('#smartwizard').smartWizard();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

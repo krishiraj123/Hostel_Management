@@ -1,0 +1,85 @@
+﻿@{
+    int currentYear = DateTime.Now.Year;
+}
+
+<!--**********************************
+    Sidebar start
+***********************************-->
+<div class="deznav">
+    <div class="deznav-scroll d-flex flex-column justify-content-between">
+        <ul class="metismenu" id="menu">
+            <li>
+                <a class="ai-icon" asp-area="Staff" asp-controller="Home" asp-action="Index">
+                    <i class="flaticon-047-home"></i>
+                    <span class="nav-text">Dashboard</span>
+                </a>               
+            </li>
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-025-dashboard"></i>
+                    <span class="nav-text">Students</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a asp-area="Staff" asp-controller="Student" asp-action="StudentList">Student Info</a></li>
+                    <li><a asp-area="Staff" asp-controller="Student" asp-action="StudentAddEdit">Add Student</a></li>
+                </ul>
+
+            </li>
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-050-info"></i>
+                    <span class="nav-text">Rooms</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a asp-area="Staff" asp-controller="Room" asp-action="RoomList">Room Info</a></li>
+                    <li><a asp-area="Staff" asp-controller="Room" asp-action="RoomAddEdit">Add Room</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-041-graph"></i>
+                    <span class="nav-text">Complaints</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a asp-area="Staff" asp-controller="Complaint" asp-action="ComplaintList">Complaints Review</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-043-menu"></i>
+                    <span class="nav-text">Timetable</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a asp-area="Staff" asp-controller="FoodTimeTable" asp-action="FoodTimeTableList">FoodTimetable Info</a></li>
+                    <li><a asp-area="Staff" asp-controller="FoodTimeTable" asp-action="FoodTimeTableUpload">Upload FoodTimeTable</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-045-heart"></i>
+                    <span class="nav-text">Notifications</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a asp-area="Staff" asp-controller="Notification" asp-action="NotificationList">Notification Info</a></li>
+                    <li><a asp-area="Staff" asp-controller="Notification" asp-action="NotificationAddEdit">Add Notification</a></li>
+                </ul>
+            </li>  
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-053-lifebuoy"></i>
+                    <span class="nav-text">Payments</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a asp-area="Staff" asp-controller="Payment" asp-action="PaymentList">Payment Info</a></li>                    
+                </ul>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p><strong>Hostel Admin</strong> © @currentYear All Rights Reserved</p>
+            <p class="fs-12">Made with ❤️ In Bharat</p>
+        </div>
+    </div>
+</div>
+<!--**********************************
+    Sidebar end
+***********************************-->

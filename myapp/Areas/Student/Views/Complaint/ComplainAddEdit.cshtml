@@ -1,0 +1,46 @@
+﻿@model myapp.Areas.Student.Models.ComplainAddEditModel
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row page-titles">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Complaints</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">@(Model.ComplainID.HasValue ? "Edit Complaint" : "New Complaint")</a></li>
+            </ol>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Complaint Details</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="SaveComplaint" method="post">
+                            <input type="hidden" asp-for="ComplainID" />
+                            <input type="hidden" asp-for="StudentID" />
+                            <input type="hidden" asp-for="HostelID" />
+                            <input type="hidden" asp-for="RoomID" />
+
+                            <div class="mb-3">
+                                <label asp-for="ComplainSubject" class="form-label">Subject</label>
+                                <input asp-for="ComplainSubject" class="form-control" />
+                                <span asp-validation-for="ComplainSubject" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="ComplainBody" class="form-label">Description</label>
+                                <textarea asp-for="ComplainBody" class="form-control" rows="5"></textarea>
+                                <span asp-validation-for="ComplainBody" class="text-danger"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">
+                                @(Model.ComplainID.HasValue ? "Update" : "Submit") Complaint
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

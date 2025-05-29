@@ -1,0 +1,94 @@
+﻿﻿@{
+    int HostelID = Convert.ToInt32(Context.Session.GetString("HostelID"));
+    string HostelName = Context.Session.GetString("HostelName");
+}
+@model myapp.Areas.Staff.Models.RoomModel
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row page-titles">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Rooms</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">@(Model.RoomID == null || Model.RoomID == 0 ? "Add" : "Update") Room</a></li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Room Form</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="RoomSave" method="post" class="needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="mb-3">
+                                        <input type="hidden" asp-for="RoomID" />
+                                        <label asp-for="RoomNumber" class="form-label">Room Number <span class="text-danger fs-5">*</span></label>
+                                        <input asp-for="RoomNumber" class="form-control" required />
+                                        <span asp-validation-for="RoomNumber" class="text-danger"></span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label asp-for="RoomCapacity" class="form-label">Room Capacity <span class="text-danger fs-5">*</span></label>
+                                        <input asp-for="RoomCapacity" type="number" class="form-control" required />
+                                        <span asp-validation-for="RoomCapacity" class="text-danger"></span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label asp-for="RoomRent" class="form-label">Room Rent <span class="text-danger fs-5">*</span></label>
+                                        <input asp-for="RoomRent" type="number" class="form-control" required />
+                                        <span asp-validation-for="RoomRent" class="text-danger"></span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label asp-for="RoomType" class="form-label">Room Type <span class="text-danger fs-5">*</span></label>
+                                        <select asp-for="RoomType" class="default-select form-control wide">
+                                            <option value="Non AC" selected>Non AC</option>
+                                            <option value="AC">AC</option>
+                                        </select>
+                                        <span asp-validation-for="RoomType" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="mb-3">
+                                        <label asp-for="RoomStatus" class="form-label">Room Status</label>
+                                        @if (Model.RoomID == 0)
+                                        {
+                                            <select asp-for="RoomStatus" class="form-control">
+                                                <option value="Vacant">Vacant</option>
+                                                <option value="Occupied">Occupied</option>
+                                            </select>
+                                        }
+                                        else
+                                        {
+                                            <input type="text" class="form-control" asp-for="RoomStatus" readonly />
+                                        }
+                                        <span asp-validation-for="RoomStatus" class="text-danger"></span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label asp-for="RoomFloor" class="form-label mt-3">Room Floor <span class="text-danger fs-5">*</span></label>
+                                        <input asp-for="RoomFloor" type="number" class="form-control" required />
+                                        <span asp-validation-for="RoomFloor" class="text-danger"></span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label asp-for="CurrentVacancy" class="form-label">Vacancy</label>
+                                        <input asp-for="CurrentVacancy" type="number" class="form-control" required readonly />
+                                        <span asp-validation-for="CurrentVacancy" class="text-danger"></span>
+                                    </div>
+                                    <div class="mb-3">
+                                        @* <label class="form-label">Hostel ID <span class="text-danger fs-5">*</span></label> *@
+                                        @* <input type="number" class="form-control" asp-for="HostelID" value="@HostelID" readonly /> *@
+                                        <label class="form-label">Hostel</label>
+                                        <p class="form-control bg-light p-3">@HostelName</p>
+                                        <input type="hidden" asp-for="HostelID" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-3">
+                                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

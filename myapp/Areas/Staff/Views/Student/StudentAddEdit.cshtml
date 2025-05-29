@@ -1,0 +1,209 @@
+﻿@{
+    string[] genders = new string[] { "Male", "Female" };
+    int HostelID = Convert.ToInt32(Context.Session.GetString("HostelID"));
+    string HostelName = Context.Session.GetString("HostelName").ToString();
+}
+@model myapp.Areas.Staff.Models.StudentModel
+
+<div class="content-body">
+    <div class="container-fluid">      
+        <div class="row page-titles">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Students</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">@(Model.StudentID == null || Model.StudentID == 0 ? "Add" : "Update") Student</a></li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-xxl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Form Steps</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="StudentSave" method="post" novalidate enctype="multipart/form-data">
+                            <div id="smartwizard" class="form-wizard order-create">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <ul class="nav nav-wizard">
+                                    <li><a class="nav-link" href="#Student_Details"><span>1</span></a></li>
+                                    <li><a class="nav-link" href="#Guardian_Details"><span>2</span></a></li>
+                                    <li><a class="nav-link" href="#Address_Details"><span>3</span></a></li>
+                                    <li><a class="nav-link" href="#Education_Details"><span>4</span></a></li>
+                                    <li><a class="nav-link" href="#More_Details"><span>5</span></a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <!-- Student Details -->
+                                    <div id="Student_Details" class="tab-pane" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-3">
+                                                <input type="hidden" asp-for="StudentID" />
+                                                <label class="form-label">Name<span class="required">*</span></label>
+                                                <input type="text" asp-for="StudentName" class="form-control" placeholder="Enter name" required>
+                                                <span class="text-danger" asp-validation-for="StudentName"></span>
+                                            </div>
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">Phone Number<span class="required">*</span></label>
+                                                <input type="tel" asp-for="StudentPhoneNumber" class="form-control" placeholder="+91 9235667012" required>
+                                                <span class="text-danger" asp-validation-for="StudentPhoneNumber"></span>
+                                            </div>
+                                            <div class="col-lg-8 mb-3">
+                                                <label class="form-label">Email Address<span class="required">*</span></label>
+                                                <input type="email" asp-for="StudentEmail" class="form-control" placeholder="example@example.com" required>
+                                                <span class="text-danger" asp-validation-for="StudentEmail"></span>
+                                            </div>
+                                            <div class="col-lg-4 mb-3">
+                                                <label class="form-label">Gender<span class="required">*</span></label>
+                                                <select asp-for="StudentGender" class="default-select form-control wide" required>
+                                                    <option value="Male" selected>Male</option>
+                                                    <option value="Female">Female</option>
+                                                </select>
+                                                <span class="text-danger" asp-validation-for="StudentGender"></span>
+                                            </div>
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">DOB<span class="required">*</span></label>
+                                                <input type="date" asp-for="StudentDOB" class="datepicker form-control wide" required>
+                                                <span class="text-danger" asp-validation-for="StudentDOB"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Guardian Details -->
+                                    <div id="Guardian_Details" class="tab-pane" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col-lg-4 mb-3">
+                                                <label class="form-label">Guardian Name<span class="required">*</span></label>
+                                                <input type="text" asp-for="GuardianName" class="form-control" placeholder="Enter guardian name" required>
+                                                <span class="text-danger" asp-validation-for="GuardianName"></span>
+                                            </div>
+                                            <div class="col-lg-4 mb-3">
+                                                <label class="form-label">Guardian Contact Number<span class="required">*</span></label>
+                                                <input type="tel" asp-for="GuardianPhoneNumber" class="form-control" placeholder="+91 9876543210" required>
+                                                <span class="text-danger" asp-validation-for="GuardianPhoneNumber"></span>
+                                            </div>
+                                            <div class="col-lg-4 mb-3">
+                                                <label class="form-label">Emergency Contact Number<span class="required">*</span></label>
+                                                <input type="tel" asp-for="EmergencyContactNumber" class="form-control" placeholder="+91 9876543210" required>
+                                                <span class="text-danger" asp-validation-for="EmergencyContactNumber"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Address Details -->
+                                    <div id="Address_Details" class="tab-pane" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col-lg-12 mb-3">
+                                                <label class="form-label">Address<span class="required">*</span></label>
+                                                <input type="text" asp-for="StudentAddress" class="form-control" placeholder="Enter address" required>
+                                                <span class="text-danger" asp-validation-for="StudentAddress"></span>
+                                            </div>
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">Country<span class="required">*</span></label>
+                                                <input type="text" asp-for="StudentCountry" class="form-control" value="India" placeholder="Enter country" required>
+                                                <span class="text-danger" asp-validation-for="StudentCountry"></span>
+                                            </div>
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">State<span class="required">*</span></label>
+                                                <input type="text" asp-for="StudentState" class="form-control" value="Gujarat" placeholder="Enter state" required>
+                                                <span class="text-danger" asp-validation-for="StudentState"></span>
+                                            </div>
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">City<span class="required">*</span></label>
+                                                <input type="text" asp-for="StudentCity" class="form-control" placeholder="Enter city" required>
+                                                <span class="text-danger" asp-validation-for="StudentCity"></span>
+                                            </div>
+                                            <div class="col-lg-2 mb-3">
+                                                <label class="form-label">Pincode<span class="required">*</span></label>
+                                                <input type="number" asp-for="StudentPincode" class="form-control" placeholder="Enter pincode" required>
+                                                <span class="text-danger" asp-validation-for="StudentPincode"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Education Details -->
+                                    <div id="Education_Details" class="tab-pane" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">Institute Status<span class="required">*</span></label>
+                                                <select asp-for="StudentEducationStatus" class="form-control" style="z-index: 1050;" required>
+                                                    <option value="College">College</option>
+                                                    <option value="Working">Working</option>
+                                                    <option value="School">School</option>
+                                                </select>
+                                                <span class="text-danger" asp-validation-for="StudentEducationStatus"></span>
+                                            </div>
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">Institute Name<span class="required">*</span></label>
+                                                <input type="text" asp-for="StudentInstituteName" class="form-control" placeholder="Enter institute name" required>
+                                                <span class="text-danger" asp-validation-for="StudentInstituteName"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- More Details -->
+                                    <div id="More_Details" class="tab-pane" role="tabpanel">
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">Hostel<span class="required">*</span></label>
+                                                <p class="form-control p-3">@HostelName</p>
+                                                <input type="hidden" asp-for="HostelID" class="form-control" value="@HostelID"/>
+                                                <span class="text-danger" asp-validation-for="HostelID"></span>
+                                            </div>
+                                            <div class="col-lg-6 mb-3">
+                                                <label class="form-label">Room Number<span class="required">*</span></label>
+                                                <select asp-for="RoomID" class="form-control" required>
+                                                    @if (ViewBag.AvailableRoomList != null && ViewBag.AvailableRoomList.Count > 0)
+                                                    {
+                                                        foreach (var room in ViewBag.AvailableRoomList)
+                                                        {
+                                                            <option value="@room.RoomID">@room.RoomNumber</option>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="">No rooms available</option>
+                                                    }
+                                                </select>
+                                                <span class="text-danger" asp-validation-for="RoomID"></span>
+                                            </div>
+                                            <div class="col-lg-12 mb-3">
+                                                <label class="form-label">Profile Image</label>
+                                                <input type="@(Model.StudentID == 0 || Model.StudentID == null ? "file" : "hidden")"
+                                                       asp-for="ProfileImageFile"
+                                                       class="form-control">
+                                                @if (Model.StudentID == 0 || Model.StudentID == null)
+                                                {
+                                                    <span class="text-danger" asp-validation-for="ProfileImageFile"></span>
+                                                }
+                                                <input type="hidden" asp-for="ProfileImage" value="@Model.ProfileImage" />
+
+                                                @if (!string.IsNullOrEmpty(Model.ProfileImage))
+                                                {
+                                                    <img src="@Model.ProfileImage" class="img-thumbnail mt-2" style="max-width: 200px;" />
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-4">
+                                <button type="submit" class="btn btn-danger px-5">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <script>
+            Swal.fire({
+                title: 'Error!',
+                text: '@Html.Raw(TempData["ErrorMessage"])'
+                @* icon: 'error' *@
+            });
+        </script>
+    }
+}

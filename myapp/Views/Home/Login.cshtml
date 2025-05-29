@@ -1,0 +1,99 @@
+﻿@{
+    Layout = null;
+}
+@model myapp.Models.LoginModel;
+
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <!-- Title -->
+    <title>Login Page</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Krishirajsinh Vansia" content="DexignZone">
+    <meta name="robots" content="">      
+
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link href="vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body class="vh-100">
+    <div class="authincation h-100">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100 align-items-center">
+                <div class="col-md-6">
+                    <div class="authincation-content">
+                        <div class="row no-gutters">
+                            <div class="col-xl-12">
+                                <div class="auth-form">                                    
+                                    <h3 class="text-center mb-4">Sign in your account</h3>
+                                    @if (!string.IsNullOrEmpty(TempData["Error"] as string))
+                                    {
+                                        <div class="alert alert-danger my-3" role="alert">
+                                            @TempData["Error"].ToString();
+                                        </div>
+                                    }
+                                    <form asp-action="LoginUser" method="post">
+                                        <div class="mb-3">
+                                            <label class="mb-1"><strong>Email<span class="text-danger">*</span></strong></label>
+                                            <input type="email" asp-controller="Home" asp-for="Username" class="form-control" placeholder="hello@example.com" required>
+                                            <span asp-validation-for="Username" class="text-danger"></span>
+                                        </div>
+                                        <div class="mb-3 position-relative">
+                                            <label class="mb-1"><strong>Password<span class="text-danger">*</span></strong></label>
+                                            <input type="password" asp-controller="Home" asp-for="Password" id="dz-password" class="form-control" placeholder="*******" required>
+                                            <span class="show-pass eye">
+
+                                                <i class="fa fa-eye-slash"></i>
+                                                <i class="fa fa-eye"></i>
+
+                                            </span>
+                                            <span asp-validation-for="Password" class="text-danger"></span>
+                                        </div>
+                                        <div class="d-flex flex-row mt-4 mb-2 gap-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" asp-for="UserType" type="radio" value="Staff" id="flexRadio" checked>
+                                                <label class="form-check-label" for="flexRadioDisabled">
+                                                    Staff
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" asp-for="UserType" type="radio" value="Student" id="flexRadio">
+                                                <label class="form-check-label" for="flexRadioCheckedDisabled">
+                                                    Student
+                                                </label>
+                                            </div>
+                                            <span asp-validation-for="UserType" class="text-danger"></span>
+                                        </div>
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-primary btn-block">Sign Me In</button>
+                                        </div>
+                                    </form>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="vendor/global/global.min.js"></script>
+    <script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/deznav-init.js"></script>    
+</body>
+</html> 

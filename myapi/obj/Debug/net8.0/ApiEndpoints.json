@@ -1,0 +1,689 @@
+[
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "GetAllComplaints",
+    "RelativePath": "apiv1/Complaints/GetAllComplaints",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "GetAllComplaintsRoomWise",
+    "RelativePath": "apiv1/Complaints/GetAllComplaintsRoomWise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hostelID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "GetComplaintsByID",
+    "RelativePath": "apiv1/Complaints/GetComplaintsByID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "GetResolvedComplaints",
+    "RelativePath": "apiv1/Complaints/GetResolvedComplaints",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "GetUnResolvedComplaints",
+    "RelativePath": "apiv1/Complaints/GetUnResolvedComplaints",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "StudentComplainAdd",
+    "RelativePath": "apiv1/Complaints/StudentComplainAdd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cm",
+        "Type": "myapi.Models.ComplainAddEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "StudentComplainAddEdit",
+    "RelativePath": "apiv1/Complaints/StudentComplainAddEdit/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cm",
+        "Type": "myapi.Models.ComplainAddEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "StudentDeleteComplaint",
+    "RelativePath": "apiv1/Complaints/StudentDeleteComplaint/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "StudentDeleteComplaintPermanently",
+    "RelativePath": "apiv1/Complaints/StudentDeleteComplaintPermanently/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.ComplaintsController",
+    "Method": "UpdateComplaintsStatus",
+    "RelativePath": "apiv1/Complaints/UpdateComplaintsStatus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cm",
+        "Type": "myapi.Models.ComplainUpdateStatusModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.DashboardController",
+    "Method": "GetDashboardData",
+    "RelativePath": "apiv1/Dashboard/GetDashboardData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.FoodTimeTableController",
+    "Method": "GetTimetable",
+    "RelativePath": "apiv1/FoodTimeTable/GetTimetable/{hostelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.FoodTimeTableController",
+    "Method": "UploadTimetable",
+    "RelativePath": "apiv1/FoodTimeTable/UploadTimetable/{hostelId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelsController",
+    "Method": "HostelLogin",
+    "RelativePath": "apiv1/Hostels/HostelLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hm",
+        "Type": "myapi.Models.HostelLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelsController",
+    "Method": "HostelSelectAll",
+    "RelativePath": "apiv1/Hostels/HostelSelectAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelsController",
+    "Method": "HostelSelectByID",
+    "RelativePath": "apiv1/Hostels/HostelSelectByID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelsController",
+    "Method": "HostelUpdatePassword",
+    "RelativePath": "apiv1/Hostels/HostelUpdatePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hm",
+        "Type": "myapi.Models.HostelUpdatePasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.NotificationController",
+    "Method": "AddNotification",
+    "RelativePath": "apiv1/Notification/AddNotification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nm",
+        "Type": "myapi.Models.NotificationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.NotificationController",
+    "Method": "DeleteNotification",
+    "RelativePath": "apiv1/Notification/DeleteNotification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.NotificationController",
+    "Method": "GetAllNotifications",
+    "RelativePath": "apiv1/Notification/GetAllNotifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.NotificationController",
+    "Method": "GetNotificationById",
+    "RelativePath": "apiv1/Notification/GetNotificationById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.NotificationController",
+    "Method": "UpdateNotification",
+    "RelativePath": "apiv1/Notification/UpdateNotification/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nm",
+        "Type": "myapi.Models.NotificationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.PaymentController",
+    "Method": "DownloadReceipt",
+    "RelativePath": "apiv1/Payment/DownloadReceipt/{paymentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.PaymentController",
+    "Method": "GetPaymentDetails",
+    "RelativePath": "apiv1/Payment/GetPaymentDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.PaymentController",
+    "Method": "GetPaymentHistory",
+    "RelativePath": "apiv1/Payment/GetPaymentHistory/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.PaymentController",
+    "Method": "PayFee",
+    "RelativePath": "apiv1/Payment/PayFee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.RoomController",
+    "Method": "AllAvailableRoomList",
+    "RelativePath": "apiv1/Room/AllAvailableRoomList/{HostelID}/{RoomID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HostelID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RoomID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.RoomController",
+    "Method": "AvailableRoomList",
+    "RelativePath": "apiv1/Room/AvailableRoomList/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.RoomController",
+    "Method": "DeleteRoom",
+    "RelativePath": "apiv1/Room/DeleteRoom/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.RoomController",
+    "Method": "GetAllRooms",
+    "RelativePath": "apiv1/Room/GetAllRooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.RoomController",
+    "Method": "GetRoomMates",
+    "RelativePath": "apiv1/Room/GetRoomMates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.RoomController",
+    "Method": "GetRoomsByID",
+    "RelativePath": "apiv1/Room/GetRoomsByID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.RoomController",
+    "Method": "InsertRoom",
+    "RelativePath": "apiv1/Room/InsertRoom",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rm",
+        "Type": "myapi.Models.RoomAddEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.RoomController",
+    "Method": "UpdateRoom",
+    "RelativePath": "apiv1/Room/UpdateRoom/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rm",
+        "Type": "myapi.Models.RoomAddEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "apiv1/Student/DeleteStudent/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.StudentController",
+    "Method": "GetStudentID",
+    "RelativePath": "apiv1/Student/GetStudentID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.StudentController",
+    "Method": "InsertStudent",
+    "RelativePath": "apiv1/Student/InsertStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sm",
+        "Type": "StudentAddEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.StudentController",
+    "Method": "SelectAllStudent",
+    "RelativePath": "apiv1/Student/SelectAllStudent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.StudentController",
+    "Method": "StudentLogin",
+    "RelativePath": "apiv1/Student/StudentLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sm",
+        "Type": "StudentLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.StudentController",
+    "Method": "StudentUpdatePassword",
+    "RelativePath": "apiv1/Student/StudentUpdatePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hm",
+        "Type": "StudentUpdatePasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myapi.Controllers.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "apiv1/Student/UpdateStudent/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sm",
+        "Type": "StudentAddEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,126 @@
+﻿@using System.Data
+@model IEnumerable<myapp.Areas.Student.Models.ComplaintModel>
+
+<div class="content-body">
+    <div class="container-fluid">
+        <!-- Page Title -->
+        <div class="row page-titles">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Complaints</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">Complaint Management</a></li>
+            </ol>
+        </div>
+
+        <!-- Complaint Table -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Complaint Records</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="complaintTable" class="table table-striped table-hover">
+                                <thead>
+                                    <tr>                                        
+                                        <th>Subject</th>
+                                        <th class="text-wrap" style="max-width: 250px;">Description</th>
+                                        <th>Status</th>
+                                        <th>Hostel</th>
+                                        <th>Room</th>
+                                        <th>Student</th>
+                                        <th>Created At</th>
+                                        <th>Updated At</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model != null && Model.Any())
+                                    {
+                                        foreach (var complaint in Model)
+                                        {
+                                            <tr>                                             
+                                                <td>@complaint.ComplainSubject</td>
+                                                <td>@complaint.ComplainBody</td>
+                                                <td>
+                                                    <span class="badge
+                                                        @(complaint.ComplainStatus?.ToLower() == "completed" ? "bg-success" :
+                                                          complaint.ComplainStatus?.ToLower() == "pending" ? "bg-warning" : "bg-secondary")">
+                                                        @complaint.ComplainStatus
+                                                    </span>
+                                                </td>
+                                                <td>@complaint.HostelName</td>
+                                                <td>@complaint.RoomNumber</td>
+                                                <td>@complaint.StudentName</td>
+                                                <td class="text-nowrap">@complaint.CreatedAt.ToString("dd-MM-yyyy HH:mm")</td>
+                                                <td class="text-nowrap">@complaint.UpdatedAt.ToString("dd-MM-yyyy HH:mm")</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <a asp-area="Student"
+                                                           asp-controller="Complaint"
+                                                           asp-action="ComplainAddEdit"
+                                                           asp-route-id="@complaint.ComplainID"
+                                                           class="btn btn-primary btn-xs me-1"
+                                                           title="Edit">
+                                                            <i class="fa fa-pencil-alt"></i>
+                                                        </a>
+                                                        <button type="button"
+                                                                class="btn btn-danger btn-xs"
+                                                                onclick="confirmDelete('@complaint.ComplainID')"
+                                                                title="Delete">
+                                                            <i class="fa fa-trash"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function confirmDelete(complainId) {
+        Swal.fire({
+            title: 'Delete Complaint?',
+            text: "This action cannot be undone!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/Student/Complaint/DeleteComplaint/" + complainId;
+            }
+        });
+    }
+</script>
+
+@section Scripts {
+    @if (TempData["Message"] != null)
+    {
+        <script>
+            Swal.fire({
+                title: 'Success!',
+                text: '@Html.Raw(TempData["Message"])',        
+            });
+        </script>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <script>
+            Swal.fire({
+                title: 'Error!',
+                text: '@Html.Raw(TempData["ErrorMessage"])',
+            });
+        </script>
+    }
+}

@@ -1,0 +1,1429 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\myapp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\myapp.6i2h5361en.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\avasta\\css\\style.css",
+      "PackagePath": "staticwebassets\\icons\\avasta\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\avasta\\fonts\\avasta.eot",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\avasta\\fonts\\avasta.svg",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\avasta\\fonts\\avasta.ttf",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\avasta\\fonts\\avasta.woff",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\avasta\\fonts\\avasta.woff2",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\bootstrap-icons\\font\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\icons\\bootstrap-icons\\font\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\icons\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\icons\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon\\Flaticon-1.eot",
+      "PackagePath": "staticwebassets\\icons\\flaticon\\Flaticon-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\icons\\flaticon\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\icons\\flaticon\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\icons\\flaticon\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\icons\\flaticon\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon\\flaticon.css",
+      "PackagePath": "staticwebassets\\icons\\flaticon\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon_1\\Flaticon_1-1.eot",
+      "PackagePath": "staticwebassets\\icons\\flaticon_1\\Flaticon_1-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon_1\\Flaticon_1.eot",
+      "PackagePath": "staticwebassets\\icons\\flaticon_1\\Flaticon_1.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon_1\\Flaticon_1.svg",
+      "PackagePath": "staticwebassets\\icons\\flaticon_1\\Flaticon_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon_1\\Flaticon_1.ttf",
+      "PackagePath": "staticwebassets\\icons\\flaticon_1\\Flaticon_1.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon_1\\Flaticon_1.woff",
+      "PackagePath": "staticwebassets\\icons\\flaticon_1\\Flaticon_1.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon_1\\Flaticon_1.woff2",
+      "PackagePath": "staticwebassets\\icons\\flaticon_1\\Flaticon_1.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\flaticon_1\\flaticon_1.css",
+      "PackagePath": "staticwebassets\\icons\\flaticon_1\\flaticon_1.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\icons\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\icons\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\icons\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\icons\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\icons\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\icomoon\\icomoon.css",
+      "PackagePath": "staticwebassets\\icons\\icomoon\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\css\\line-awesome.min.css",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\css\\line-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-brands-400-1.eot",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-brands-400-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-brands-400.eot",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-brands-400.svg",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-brands-400.ttf",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-brands-400.woff",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-brands-400.woff2",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-regular-400-1.eot",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-regular-400-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-regular-400.eot",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-regular-400.svg",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-regular-400.ttf",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-regular-400.woff",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-regular-400.woff2",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-solid-900-1.eot",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-solid-900-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-solid-900.eot",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-solid-900.svg",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-solid-900.ttf",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-solid-900.woff",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\line-awesome\\fonts\\la-solid-900.woff2",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\la-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont-1.eot",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\simple-line-icons\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.eot",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.svg",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.ttf",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.woff",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.woff2",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.woff2"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Iconsd41d.eot",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Iconsd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\themify-icons\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\themify-icons\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\themify-icons\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\icons\\themify-icons\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\1.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\5.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic11.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic22.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic3.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic33.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic4.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic44.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\avatar\\pic5.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pic5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\big\\img1.jpg",
+      "PackagePath": "staticwebassets\\images\\big\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\big\\img2.jpg",
+      "PackagePath": "staticwebassets\\images\\big\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\big\\img3.jpg",
+      "PackagePath": "staticwebassets\\images\\big\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\big\\img4.jpg",
+      "PackagePath": "staticwebassets\\images\\big\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\big\\img5.jpg",
+      "PackagePath": "staticwebassets\\images\\big\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\big\\img6.jpg",
+      "PackagePath": "staticwebassets\\images\\big\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\big\\img7.jpg",
+      "PackagePath": "staticwebassets\\images\\big\\img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\big\\img8.jpg",
+      "PackagePath": "staticwebassets\\images\\big\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\card\\1.png",
+      "PackagePath": "staticwebassets\\images\\card\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\card\\2.png",
+      "PackagePath": "staticwebassets\\images\\card\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\card\\3.png",
+      "PackagePath": "staticwebassets\\images\\card\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\hotel\\pic1.jpg",
+      "PackagePath": "staticwebassets\\images\\hotel\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\hotel\\pic11.jpg",
+      "PackagePath": "staticwebassets\\images\\hotel\\pic11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\hotel\\pic2.jpg",
+      "PackagePath": "staticwebassets\\images\\hotel\\pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\hotel\\pic22.jpg",
+      "PackagePath": "staticwebassets\\images\\hotel\\pic22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\hotel\\pic3.jpg",
+      "PackagePath": "staticwebassets\\images\\hotel\\pic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\hotel\\pic33.jpg",
+      "PackagePath": "staticwebassets\\images\\hotel\\pic33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\hotel\\pic4.jpg",
+      "PackagePath": "staticwebassets\\images\\hotel\\pic4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\like.png",
+      "PackagePath": "staticwebassets\\images\\like.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\logo-text.png",
+      "PackagePath": "staticwebassets\\images\\logo-text.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\pattern\\pattern5.png",
+      "PackagePath": "staticwebassets\\images\\pattern\\pattern5.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\product\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\product\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\product\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\product\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\product\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\product\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\product\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\pic1.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\profile.png",
+      "PackagePath": "staticwebassets\\images\\profile\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic1.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic10.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic2.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic3.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic4.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic5.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic6.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic7.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic8.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\profile\\small\\pic9.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\small\\pic9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\qr.png",
+      "PackagePath": "staticwebassets\\images\\qr.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\svg\\check.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\check.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\tab\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\tab\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\tab\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\images\\tab\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\custom.min.js",
+      "PackagePath": "staticwebassets\\js\\custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\dashboard\\dashboard-1.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\dashboard-1.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\deznav-init.js",
+      "PackagePath": "staticwebassets\\js\\deznav-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\dz.carousel.js",
+      "PackagePath": "staticwebassets\\js\\dz.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\bs-daterange-picker-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\bs-daterange-picker-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\chartist-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\chartist-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\chartjs-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\chartjs-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\clock-picker-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\clock-picker-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\datatables.init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\datatables.init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\flot-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\flot-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\fullcalendar-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\fullcalendar-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\jquery-asColorPicker.init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\jquery-asColorPicker.init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\jquery.validate-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\jquery.validate-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\jqvmap-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\jqvmap-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\material-date-picker-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\material-date-picker-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\morris-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\morris-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\nestable-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\nestable-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\nouislider-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\nouislider-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\pickadate-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\pickadate-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\piety-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\piety-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\select2-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\select2-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\sparkline-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\sparkline-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\sweetalert.init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\sweetalert.init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\toastr-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\toastr-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\plugins-init\\widgets-script-init.js",
+      "PackagePath": "staticwebassets\\js\\plugins-init\\widgets-script-init.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\js\\styleSwitcher.js",
+      "PackagePath": "staticwebassets\\js\\styleSwitcher.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\14246855-1adf-475b-8948-837a5065baf3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\14246855-1adf-475b-8948-837a5065baf3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\1769a727-c0c0-4fa0-adc1-7407b265fd2e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1769a727-c0c0-4fa0-adc1-7407b265fd2e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\1c3a31ae-8853-4537-aa0d-33550217bbe2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1c3a31ae-8853-4537-aa0d-33550217bbe2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\1d7da7fa-29a6-4fb0-842c-cf7d0f1c9a52.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1d7da7fa-29a6-4fb0-842c-cf7d0f1c9a52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\2ca8ec24-bab0-480d-a909-b4b361faa749.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2ca8ec24-bab0-480d-a909-b4b361faa749.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\30559766-010e-4782-b233-f89f2f803198.jpg",
+      "PackagePath": "staticwebassets\\uploads\\30559766-010e-4782-b233-f89f2f803198.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\56a3339e-8fe9-4f71-8f84-101c01d1ead3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\56a3339e-8fe9-4f71-8f84-101c01d1ead3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\607a6e2b-f5fa-4c0a-bb6c-df3505642598.jpg",
+      "PackagePath": "staticwebassets\\uploads\\607a6e2b-f5fa-4c0a-bb6c-df3505642598.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\7bdf05e1-49f9-4b4f-8fcd-d53599bb7958.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7bdf05e1-49f9-4b4f-8fcd-d53599bb7958.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\82419591-9638-4b33-aa09-548e15c180b5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\82419591-9638-4b33-aa09-548e15c180b5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\8c30e997-5742-4471-a527-ecc9323251f6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8c30e997-5742-4471-a527-ecc9323251f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\904605ff-c49b-4d30-8fb6-5a8faf859e46.jpg",
+      "PackagePath": "staticwebassets\\uploads\\904605ff-c49b-4d30-8fb6-5a8faf859e46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\uploads\\c819dd9b-27fd-4316-ab04-e34d5a6fe79d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c819dd9b-27fd-4316-ab04-e34d5a6fe79d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\aos\\css\\aos.min.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\css\\aos.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\apexchart\\apexchart.js",
+      "PackagePath": "staticwebassets\\vendor\\apexchart\\apexchart.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-datetimepicker\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-datetimepicker\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-datetimepicker\\js\\moment.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-datetimepicker\\js\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\chart.js\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\chart.js\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\chartist\\css\\chartist.min.css",
+      "PackagePath": "staticwebassets\\vendor\\chartist\\css\\chartist.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\chartist\\js\\chartist.min.js",
+      "PackagePath": "staticwebassets\\vendor\\chartist\\js\\chartist.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\vendor\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css",
+      "PackagePath": "staticwebassets\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js",
+      "PackagePath": "staticwebassets\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\deznav\\deznav.min.js",
+      "PackagePath": "staticwebassets\\vendor\\deznav\\deznav.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\dropzone\\dist\\dropzone.css",
+      "PackagePath": "staticwebassets\\vendor\\dropzone\\dist\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\dropzone\\dist\\dropzone.js",
+      "PackagePath": "staticwebassets\\vendor\\dropzone\\dist\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\flot-spline\\jquery.flot.spline.min.js",
+      "PackagePath": "staticwebassets\\vendor\\flot-spline\\jquery.flot.spline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\vendor\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\vendor\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\vendor\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\fullcalendar\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\vendor\\fullcalendar\\css\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\fullcalendar\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\vendor\\fullcalendar\\js\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\global\\global.min.js",
+      "PackagePath": "staticwebassets\\vendor\\global\\global.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\highlightjs\\highlight.pack.min.js",
+      "PackagePath": "staticwebassets\\vendor\\highlightjs\\highlight.pack.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-asColorPicker\\css\\asColorPicker.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\css\\asColorPicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-asColorPicker\\images\\alpha.png",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\images\\alpha.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-asColorPicker\\images\\hue.png",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\images\\hue.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-asColorPicker\\images\\saturation.png",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\images\\saturation.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-asColorPicker\\images\\transparent.png",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\images\\transparent.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-asColorPicker\\js\\jquery-asColorPicker.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColorPicker\\js\\jquery-asColorPicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-asColor\\jquery-asColor.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asColor\\jquery-asColor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-asGradient\\jquery-asGradient.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-asGradient\\jquery-asGradient.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-nice-select\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\vendor\\jquery-nice-select\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-nice-select\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-nice-select\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-steps\\build\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-steps\\build\\jquery.steps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jquery-validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery-validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jqvmap\\css\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jqvmap\\css\\jqvmap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jqvmap\\js\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jqvmap\\js\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jqvmap\\js\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\vendor\\jqvmap\\js\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\jqvmap\\js\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\vendor\\jqvmap\\js\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\css\\lightgallery.min.css",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\css\\lightgallery.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\fonts\\lg-1.eot",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lg-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\fonts\\lg.eot",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lg.eot"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\fonts\\lg.svg",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lg.svg"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\fonts\\lg.ttf",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\fonts\\lg.woff",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\fonts\\lg.woff"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\img\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\img\\video-play.png",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\img\\video-play.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\img\\vimeo-play.png",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\img\\vimeo-play.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\img\\youtube-play.png",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\img\\youtube-play.png"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\lightgallery\\js\\lightgallery-all.min.js",
+      "PackagePath": "staticwebassets\\vendor\\lightgallery\\js\\lightgallery-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\metismenu\\css\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\vendor\\metismenu\\css\\metisMenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\vendor\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\vendor\\morris\\morris.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\nestable2\\css\\jquery.nestable.min.css",
+      "PackagePath": "staticwebassets\\vendor\\nestable2\\css\\jquery.nestable.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\nestable2\\js\\jquery.nestable.min.js",
+      "PackagePath": "staticwebassets\\vendor\\nestable2\\js\\jquery.nestable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\vendor\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\vendor\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\owl-carousel\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\vendor\\owl-carousel\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\owl-carousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\vendor\\owl-carousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\vendor\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\pickadate\\picker.date.js",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\picker.date.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\pickadate\\picker.js",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\picker.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\pickadate\\picker.time.js",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\picker.time.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\pickadate\\themes\\default.css",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\themes\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\pickadate\\themes\\default.date.css",
+      "PackagePath": "staticwebassets\\vendor\\pickadate\\themes\\default.date.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\vendor\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\star-rating\\jquery.star-rating-svg.js",
+      "PackagePath": "staticwebassets\\vendor\\star-rating\\jquery.star-rating-svg.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\star-rating\\star-rating-svg.css",
+      "PackagePath": "staticwebassets\\vendor\\star-rating\\star-rating-svg.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\svganimation\\svg.animation.js",
+      "PackagePath": "staticwebassets\\vendor\\svganimation\\svg.animation.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\svganimation\\vivus.min.js",
+      "PackagePath": "staticwebassets\\vendor\\svganimation\\vivus.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\vendor\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\sweetalert2\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\vendor\\sweetalert2\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\toastr\\css\\toastr.min.css",
+      "PackagePath": "staticwebassets\\vendor\\toastr\\css\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\toastr\\js\\toastr.min.js",
+      "PackagePath": "staticwebassets\\vendor\\toastr\\js\\toastr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\krish\\Desktop\\HostelManagement_Frontend\\myapp\\wwwroot\\vendor\\wnumb\\wNumb.js",
+      "PackagePath": "staticwebassets\\vendor\\wnumb\\wNumb.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.myapp.props",
+      "PackagePath": "build\\myapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.myapp.props",
+      "PackagePath": "buildMultiTargeting\\myapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.myapp.props",
+      "PackagePath": "buildTransitive\\myapp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.myapp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.myapp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

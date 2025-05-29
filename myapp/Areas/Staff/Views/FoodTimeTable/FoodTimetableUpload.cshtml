@@ -1,0 +1,86 @@
+﻿@{
+    int HostelID = Convert.ToInt32(Context.Session.GetString("HostelID"));
+    string HostelName = Context.Session.GetString("HostelName");
+}
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row page-titles">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Hostel Management</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">Upload FoodTimetable</a></li>
+            </ol>
+        </div>
+
+        <div class="col-xl-12 col-lg-12">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="card-title"><i class="fas fa-upload me-2"></i>Upload Weekly Schedule</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="UploadTimetable" asp-controller="FoodTimeTable" asp-area="Staff" enctype="multipart/form-data">
+                        <div class="row align-items-center">
+                            <div class="col-md-12 mb-4">
+                                <div class="form-group">
+                                    <label class="form-label">Hostel</label>
+                                    <p class="form-control bg-light p-3">@HostelName</p>
+                                    <input type="hidden" name="hostelId" value="@HostelID" />
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-md-row flex-col">
+                                <div class="col-md-8 mb-4">
+                                    <div class="custom-file">
+                                        <input type="file" class="form-control" id="timetableFile" name="timetableFile"
+                                               accept=".xlsx" required>
+                                        <small class="form-text text-muted">Upload Excel file (.xlsx) format only</small>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 mb-4 mx-1">
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="fas fa-cloud-upload-alt me-2"></i>Upload Schedule
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="alert alert-info">
+                                    <h5 class="alert-heading">Template Guidelines:</h5>
+                                    <ul class="mb-0">
+                                        <li>Use the standard timetable format</li>
+                                        <li>First row should contain days (Mon-Sun)</li>
+                                        <li>First column should contain meal types</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <script>
+            Swal.fire({
+                title: 'Error!',
+                text: '@Html.Raw(TempData["ErrorMessage"])',
+                icon: 'error'
+            });
+        </script>
+    }
+    @if (TempData["Message"] != null)
+    {
+        <script>
+            Swal.fire({
+                title: 'Success!',
+                text: '@Html.Raw(TempData["Message"])',
+                icon: 'success'
+            });
+        </script>
+    }
+}
