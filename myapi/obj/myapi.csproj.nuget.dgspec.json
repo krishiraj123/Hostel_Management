@@ -1,37 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krish\\Desktop\\HostelManagement_API\\myapi\\myapi.csproj": {}
+    "C:\\Users\\krish\\OneDrive\\Desktop\\Project\\Hostel_Management\\myapi\\myapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krish\\Desktop\\HostelManagement_API\\myapi\\myapi.csproj": {
+    "C:\\Users\\krish\\OneDrive\\Desktop\\Project\\Hostel_Management\\myapi\\myapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krish\\Desktop\\HostelManagement_API\\myapi\\myapi.csproj",
+        "projectUniqueName": "C:\\Users\\krish\\OneDrive\\Desktop\\Project\\Hostel_Management\\myapi\\myapi.csproj",
         "projectName": "myapi",
-        "projectPath": "C:\\Users\\krish\\Desktop\\HostelManagement_API\\myapi\\myapi.csproj",
+        "projectPath": "C:\\Users\\krish\\OneDrive\\Desktop\\Project\\Hostel_Management\\myapi\\myapi.csproj",
         "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krish\\Desktop\\HostelManagement_API\\myapi\\obj\\",
+        "outputPath": "C:\\Users\\krish\\OneDrive\\Desktop\\Project\\Hostel_Management\\myapi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -45,11 +38,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "DotNetEnv": {
               "target": "Package",
@@ -57,7 +50,7 @@
             },
             "EPPlus": {
               "target": "Package",
-              "version": "[7.5.3, )"
+              "version": "[8.4.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -65,7 +58,7 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.11, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
@@ -83,7 +76,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[13.0.4, )"
             },
             "Razorpay": {
               "target": "Package",
@@ -113,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
