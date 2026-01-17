@@ -17,10 +17,8 @@
 </p>
 
 <p>
-  <a href="#-executive-dashboard-admin-view"><b>View Dashboard</b></a> •
-  <a href="#-section-1-hostel-admin-panel"><b>Admin Features</b></a> •
-  <a href="#-section-2-student-panel"><b>Student Portal</b></a> •
-  <a href="#-getting-started"><b>Installation</b></a>
+  <a href="#-executive-dashboard-admin-view"><b>View Dashboard</b></a> •  
+  <a href="#-section-2-student-panel"><b>Student Portal</b></a> •  
 </p>
 
 </div>
